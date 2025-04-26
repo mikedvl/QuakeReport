@@ -1,0 +1,71 @@
+# Build results
+bin/
+obj/
+out/
+TestResults/
+build/
+*.sln
+
+# Rider-specific
+.idea/
+*.sln.iml
+
+# VS Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.nlog
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+*.codecoverage
+
+# Publish output
+publish/
+AppPackages/
+BundleArtifacts/
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Azure stuff
+*.azurePubxml
+*.publishproj
+
+
+# Global JetBrains cache (если вдруг Rider кэширует не в .idea)
+.idea_modules/
+.idea.system/
+
+# Runtime-generated files
+*.db
+*.pid
+*.seed
