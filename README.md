@@ -32,6 +32,3 @@ QuakeReport is a .NET Core 7.0 project designed to process logs from the Quake I
 
 2. Run the project as described in the previous section.
 
-
-<img width="888" alt="Снимок экрана 2023-07-28 в 16 44 06" src="https://github.com/magellantech/QuakeReport/assets/1517243/47214e61-34df-4f8b-8b25-eeb95e9cb737">
-
