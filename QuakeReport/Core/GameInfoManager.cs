@@ -6,7 +6,7 @@ using QuakeReport.ParserCore.Models;
 
 namespace QuakeReport.ParserCore
 {
-	public class GameInfoManager: IGameInfoManager
+    public class GameInfoManager: IGameInfoManager
     {
         private Dictionary<string, KillsByMeansData> _killsByMeansReportDictionary = new();
         private Dictionary<string, GameInfoReport> _gameInfoReports = new();
@@ -18,7 +18,7 @@ namespace QuakeReport.ParserCore
         private const string JsonSerializationExceptionStr = "Json  serialization exception";
 
         public GameInfoManager(ILogger<GameInfoManager> logger)
-		{
+	{
             _logger = logger;
         }
 
