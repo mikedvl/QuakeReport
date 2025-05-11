@@ -3,11 +3,11 @@ using QuakeReport.ParserCore.Interfaces;
 
 namespace QuakeReport.ParserCore
 {
-	public class StateMachine: IStateMachine
+    public class StateMachine: IStateMachine
     {
-		public StateMachine()
-		{
-		}
+	public StateMachine()
+	{
+	}
 
         private GameStatus _currentState;
 
