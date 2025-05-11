@@ -5,7 +5,7 @@ using QuakeReport.ParserCore.Interfaces;
 namespace QuakeReport.ParserCore
 {
     public class Parser : IParse
-	{
+    {
         private readonly IStateMachine _stateMachine;
         private readonly IGameInfoManager _gameInfoManager;
         private readonly string gameNamePattern = @"\\gamename\\(.*?)\\";
@@ -15,7 +15,7 @@ namespace QuakeReport.ParserCore
         private readonly string playerNamePattern = @"n\\(.*?)\\t";
 
         public Parser(IStateMachine stateMachine, IGameInfoManager gameInfoManager)
-		{
+	{
             _stateMachine = stateMachine;
             _gameInfoManager = gameInfoManager;
         }
